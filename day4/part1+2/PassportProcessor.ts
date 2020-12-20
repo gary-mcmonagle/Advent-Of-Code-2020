@@ -67,10 +67,8 @@ export default class PassportProcessor {
         if(id.length !== 9) return false;
 
         if (Number(id)) return true;
-
         return false;
     }
-
 
     _isValidPassport(passport: IPassport) {
         return this._validBirthYear(passport.byr) &&
