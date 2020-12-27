@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/js-combinatorics": "^0.5.32",
     "@types/lodash": "^4.14.165",
     "@types/node": "^14.14.13",
+    "js-combinatorics": "^1.4.5",
     "lodash": "^4.17.20",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"

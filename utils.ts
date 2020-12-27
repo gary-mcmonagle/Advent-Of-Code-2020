@@ -9,4 +9,5 @@ export function readTextFile(path:string) :string[] {
     catch (err) {
         console.error(err);
     }
+    return []
 }
